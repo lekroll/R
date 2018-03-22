@@ -33,6 +33,9 @@ install.packages("RCurl") # Download large files from online sources
 install.packages("labelled") # Variable labels attribute
 install.packages("leaflet") # Interactive Maps
 install.packages("rdwd") # Weather Data
+install.packages("rgdal") # Manipulation of spatial data
+install.packages("maptools") # Manipulation of spatial data
+install.packages("rgeos") # Manipulation of spatial data
 
 # Load System Fonts into R
 ##########################
