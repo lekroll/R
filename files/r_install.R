@@ -1,6 +1,6 @@
 # Install some important R Packages
 #==================================
-# Version 1.0
+# Version 1.01
 # Author: L. E. Kroll from www.rki.de
 
 # Technical Info
@@ -9,10 +9,10 @@
 
 # Packages
 ##########
-install.packages("haven") # Paket um Stata Dateien zu öffnen
+install.packages("haven") # Paket um Stata Dateien zu Ã¶ffnen
 install.packages("dplyr") # data manipulation lib
 install.packages("survey") # survey data
-install.packages("tidyverse") #  tidyverse is an opinionated collection of R packages designed for data science (enthält alles wichtige)
+install.packages("tidyverse") #  tidyverse is an opinionated collection of R packages designed for data science (enthÃ¤lt alles wichtige)
 install.packages("ggplot2") # nice plots
 install.packages("gmodels") # Nice Tables
 install.packages("descr") #  Descriptive Statistics
@@ -29,6 +29,10 @@ install.packages("tableone") # First Table
 install.packages("stargazer") # All Table Formats
 install.packages("sjPlot") # Effect Plots
 install.packages("imputeTS") # TimeSeries Imputation
+install.packages("RCurl") # Download large files from online sources
+install.packages("labelled") # Variable labels attribute
+install.packages("leaflet") # Interactive Maps
+install.packages("rdwd") # Weather Data
 
 # Load System Fonts into R
 ##########################
