@@ -36,7 +36,8 @@ install.packages("rdwd") # Weather Data
 install.packages("rgdal") # Manipulation of spatial data
 install.packages("maptools") # Manipulation of spatial data
 install.packages("rgeos") # Manipulation of spatial data
-
+install.packages("osmar") # OSM data Manipulation
+                 
 # Load System Fonts into R
 ##########################
 # to apply the RKI Theme the font named ScalaSansLF needs to be installed locally, else use alternatives...
