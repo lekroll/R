@@ -16,6 +16,7 @@ library(tableone)  # Descriptives Table
 library(stargazer) # Regression Table Output
 library(labelled)  # Variable labels attribute
 
+
 # Proxy-Settings (not included due to confidentiality)
 # set_config(use_proxy(SERVERNAME , port = SERVERPORT ), override = TRUE)
 
@@ -35,9 +36,9 @@ local({
   rkihc7 <- rgb(184/255,0/255,94/255) # rot dunkel
   rkihc8 <- rgb(209/255,89/255,150/255)
   rkihc9 <- rgb(234/255,178/255,206/255) # rot hell
-  rkihc10 <- rgb(94/255,184/255,0/255) # grün dunkel
+  rkihc10 <- rgb(94/255,184/255,0/255) # grÃ¼n dunkel
   rkihc11 <- rgb(150/255,209/255,89/255)
-  rkihc12 <- rgb(206/255,234/255,178/255) # grün hell
+  rkihc12 <- rgb(206/255,234/255,178/255) # grÃ¼n hell
   
   rki1 <- rgb(0/255,94/255,184/255) # Blau dunkel
   rki2 <- rgb(51/255,126/255,194/255) 
@@ -154,5 +155,18 @@ local({
            label = labels)
   }
   
+  ## Function to generate Ridits credits to http://blog.rguha.net/?p=1368
+  ridit <- function(var) { ## props should be in order of levels (highest to lowest)
+  props <- var / sum(var)
+  r <- rep(-1, length(props))
+  for (i in 1:length(props)) {
+    if (i == length(props)) vals <- 0
+    else vals <- props[(i+1):length(props)]
+    r[i] <- sum(vals) + 0.5*props[i]
+  }
+  return(r)
+}
+                          
+                            
 }, envir = rki )
 
