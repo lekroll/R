@@ -66,9 +66,9 @@ local({
   
   rkicolour_3c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3))
   rkicolour_4c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc4, rki$rkihc5))
-  rkicolour_5c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc4, rki$rkihc5, rki$rkihc6))
+  rkicolour_5c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc4, rki$rkihc5))
   rkicolour_6c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc4, rki$rkihc5, rki$rkihc6))
-  rkicolour_8c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc4, rki$rkihc5))
+  rkicolour_8c <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc4, rki$rkihc5, rki$rkihc6, rki$rkihc7, rki$rkihc8))
   rkicolour_blue_red_6 <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc3, rki$rkihc7, rki$rkihc8, rki$rkihc9))  
   rkicolour_blue_red_4 <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc2 , rki$rkihc7, rki$rkihc8))  
   rkicolour_blue_red_4 <-  scale_colour_manual(values = c(rki$rkihc1, rki$rkihc7))  
