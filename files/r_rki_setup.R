@@ -157,9 +157,9 @@ local({
                             
   ## Random String generator
  myrandomgen <- function() { sprintf("%s%s%s", 
-         stringi::stri_rand_strings(7, 5, '[0-9A-Z,_)!=(%$)]'),
-         stringi::stri_rand_strings(7, 5, '[0-9A-Z,_)!=(%$)]'), 
-         stringi::stri_rand_strings(7, 5, '[0-9A-Z,_)!=(%$)]'))}
+         stringi::stri_rand_strings(7, 5, '[a-z0-9A-Z,_)!=(%$)]'),
+         stringi::stri_rand_strings(7, 5, '[a-z0-9A-Z,_)!=(%$)]'), 
+         stringi::stri_rand_strings(7, 5, '[a-z0-9A-Z,_)!=(%$)]'))}
   
   ## Function to generate Ridits credits to http://blog.rguha.net/?p=1368
   ridit <- function(var) { ## props should be in order of levels (highest to lowest)
